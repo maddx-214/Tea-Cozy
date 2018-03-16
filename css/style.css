@@ -1,0 +1,119 @@
+body, html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+.header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  background-color: black;
+  background-size: contain;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img {
+height: 50px;
+margin: 10px;
+}
+a {
+  color: seashell;
+  padding: 0 20px;
+}
+.center {
+    height: 700px;
+    padding-top: 69px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    max-width: 1200px;
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+.center-text {
+    width: 100%;
+    background: black;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.tea-month {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tea-month header {
+    padding: 0;
+    font-family: Helvetica;
+}
+
+.teas {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tea {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+
+}
+
+.tea img {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+}
+
+.tea h4 {
+    font-weight: 700;
+    font-style: bold;
+    margin: 10px;
+}
+.information {
+    min-height: 500px;
+    opacity: 1;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg") no-repeat center;
+}
+.info-header {
+    padding-top: 20px;
+}
+.locations {
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location {
+    padding: 10px;
+    background: black;
+    opacity: 1;
+    color: seashell;
+    flex-basis: 300px;
+    margin: 20px 20px 0 20px;
+}
+
+.footer {
+  height: 200px;
+  position: relative;
+  text-align: center;
+}
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
